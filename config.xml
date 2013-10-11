@@ -16,5 +16,8 @@
     <author href="http://coenraets.org" email="ccoenraets@gmail.com">
         Christophe Coenraets
     </author>
+    
+    <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+    <plugin name="Contacts" value="org.apache.cordova.ContactManager" />
 
 </widget>
