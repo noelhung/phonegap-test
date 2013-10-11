@@ -68,6 +68,7 @@ var app = {
 	    this.registerEvents();
 	    this.detailsURL = /^#employees\/(\d{1,})/;
 	    this.store = new MemoryStore(function() {
+	        self.showAlert('Store Initialized', 'Info');
 	    	self.route();
 	    });
 		
