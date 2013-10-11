@@ -23,6 +23,7 @@ var EmployeeView = function(employee) {
 	    console.log('addToContacts');
 	    if (!navigator.contacts) {
 	        app.showAlert("Contacts API not supported", "Error");
+
 	        return;
 	    }
 	    var contact = navigator.contacts.create();

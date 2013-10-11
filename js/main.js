@@ -109,3 +109,8 @@ var app = {
 };
 
 app.initialize();
+
+document.addEventListener("deviceready", onDeviceReady2, false);
+function onDeviceReady2(){
+app.showAlert("on device ready", "Error");
+}
